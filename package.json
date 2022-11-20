@@ -1,0 +1,24 @@
+{
+  "name": "piscesjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giangtran99/Piscesjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giangtran99/Piscesjs/issues"
+  },
+  "homepage": "https://github.com/giangtran99/Piscesjs#readme",
+  "dependencies": {
+    "@types/node": "^18.11.9",
+    "fastify": "^4.10.0"
+  }
+}
