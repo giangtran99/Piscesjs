@@ -1,7 +1,13 @@
 
 
 interface IHttpServer {
-    init()
+    startServer(port);
+    get();
+    post();
+    put();
+    delete();
+
+
 
 }
 
