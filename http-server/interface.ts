@@ -6,9 +6,6 @@ interface IHttpServer {
     post();
     put();
     delete();
-
-
-
 }
 
 

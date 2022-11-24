@@ -19,6 +19,7 @@
   "homepage": "https://github.com/giangtran99/Piscesjs#readme",
   "dependencies": {
     "@types/node": "^18.11.9",
-    "fastify": "^4.10.2"
+    "fastify": "^4.10.2",
+    "reflect-metadata": "^0.1.13"
   }
 }

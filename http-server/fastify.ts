@@ -1,5 +1,5 @@
 import IHttpServer from './interface'
-const fastify = require('fastify')({ logger: true })
+const fastify = require('fastify')
 
 
 class FastifyServer implements IHttpServer {
@@ -16,20 +16,20 @@ class FastifyServer implements IHttpServer {
         }
     }
     get() {
-        fastify.get('/', async (request, reply) => {
-
-            return { hello: 'world' }
-        })
+        
     }
     post() {
-        throw new Error('Method not implemented.');
+
     }
     put() {
-        throw new Error('Method not implemented.');
+
     }
     delete() {
-        throw new Error('Method not implemented.');
+
     }
 
 
 }
+
+
+export default FastifyServer
